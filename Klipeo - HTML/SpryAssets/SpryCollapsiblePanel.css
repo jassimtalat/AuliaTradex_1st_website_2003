@@ -1,0 +1,21 @@
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;}
+.CollapsiblePanelTab {
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	outline:none;}
+.CollapsiblePanelContent {
+	margin: 20px 0 0 0;
+	padding: 0 20px;
+	background:url(../images/bg-gradient.png) right bottom repeat-x;
+	height: 210px;}
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+ background:url(../images/icon-up.png) right no-repeat;}
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ background:url(../images/icon-down.png) right no-repeat;}
+.CollapsiblePanel p {padding-left: 253px; }
+.CollapsiblePanel a:hover {	color:#077cdc;}
