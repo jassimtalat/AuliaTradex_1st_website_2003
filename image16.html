@@ -1,0 +1,25 @@
+<title>Aulia Tradex - Cyber Gallery</title>
+<head>
+<script language="Javascript1.2">
+am = "Copy Rights Reserved. Aulia Tradex.com 2003";
+bV  = parseInt(navigator.appVersion)
+bNS = navigator.appName=="Netscape"
+bIE = navigator.appName=="Microsoft Internet Explorer"
+function nrc(e) {
+   if (bNS && e.which > 1){
+      alert(am)
+      return false
+   } else if (bIE && (event.button >1)) {
+     alert(am)
+     return false;
+   }
+}
+document.onmousedown = nrc;
+if (document.layers) window.captureEvents(Event.MOUSEDOWN);
+if (bNS && bV<5) window.onmousedown = nrc;
+</script>
+</head>
+<body bgcolor="#000000">
+
+<p align="center">
+<img border="0" src="images/gallery/gallery016.jpg" width="670" height="1000" align="left"></p>
